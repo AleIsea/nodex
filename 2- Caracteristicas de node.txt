@@ -1,0 +1,15 @@
+Servidor HTTP: permite crear servidores web de forma sencilla. con el modulo http,
+puedes crear un servidor basico para manejar solicitudes y respuestas y
+respuestas web.
+
+Desarrollo de aplicaciones en tiempo real: Es muy adecuado para construir
+aplicaciones en tiempo real, como chats, juegos multijugador,sistemas de notificaciones
+gracias a su capacidad de manejar conexiones de manera asincrona.
+
+Entrada/salida asincrona (i/o) : node puede manejar multiples solicitudes de entrada
+simultameamente sin bloquear el hilo principal de ejecucion. esto es fundamental paara aplicaciones
+ web que necesitan manejar muchas conexiones concurrentes
+
+Manejo de paquetes y dependencias: cuenta con un gestor de paquetes integrado llamado NPM
+(node package Manager). es una herramienta muy poderosa que permite instalar, gestionar, y compartir paquetes
+de codigo javacript facilmente

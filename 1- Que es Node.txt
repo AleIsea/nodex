@@ -1,0 +1,4 @@
+es un entorno de ejecucion de javascript que permite ejecutar codigo
+del lado del servidor. utiliza el motor v8 de google chrome para ejecutar el codigo 
+de manera mas rapida y eficiente fuera del navegador web, ademas cuenta con un amplio
+ecosistema de bibliotecas y modulos que facilitan el desarrollo de aplicaciones.

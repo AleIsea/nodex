@@ -1,0 +1,6 @@
+const fs = require('fs')
+
+const prueba = fs.readFileSync('prueba.txt', 'utf-8')
+
+console.log(prueba)
+

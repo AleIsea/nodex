@@ -1,0 +1,40 @@
+En Node.js, el módulo fs (file system o sistema de archivos) es un módulo incorporado que proporciona una API 
+para interactuar con el sistema de archivos de una manera similar a como lo harías con comandos de shell o scripts de bash. 
+Este módulo te permite realizar diversas operaciones de manejo de archivos y directorios, tales como leer, escribir, borrar, y manipular archivos.
+
+Aquí hay algunas de las principales funcionalidades que proporciona el módulo fs:
+
+Leer archivos:
+
+Sincrónicamente: fs.readFileSync()
+Asincrónicamente: fs.readFile()
+Escribir archivos:
+
+Sincrónicamente: fs.writeFileSync()
+Asincrónicamente: fs.writeFile()
+Borrar archivos:
+
+Sincrónicamente: fs.unlinkSync()
+Asincrónicamente: fs.unlink()
+Leer directorios:
+
+Sincrónicamente: fs.readdirSync()
+Asincrónicamente: fs.readdir()
+Crear directorios:
+
+Sincrónicamente: fs.mkdirSync()
+Asincrónicamente: fs.mkdir()
+Eliminar directorios:
+
+Sincrónicamente: fs.rmdirSync()
+Asincrónicamente: fs.rmdir()
+Verificar la existencia de un archivo o directorio:
+
+Sincrónicamente: fs.existsSync()
+Asincrónicamente: fs.exists() (Nota: Esta función está en desuso, se recomienda usar fs.access())
+Acceder a las estadísticas de un archivo:
+
+Sincrónicamente: fs.statSync()
+Asincrónicamente: fs.stat()
+
+

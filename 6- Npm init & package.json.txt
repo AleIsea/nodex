@@ -1,0 +1,28 @@
+npm init es un comando en Node.js que inicializa un nuevo proyecto de Node y crea un archivo package.json 
+en el directorio del proyecto. Este comando te guía a través de una serie de preguntas sobre tu proyecto,
+ como su nombre, versión, descripción, entrada principal, repositorio, autor, licencia, etc.
+
+Para ejecutar npm init, simplemente abres una terminal y navegas al directorio donde deseas crear tu proyecto,
+ y luego ejecutas:
+
+npm init
+
+Si prefieres aceptar los valores predeterminados para todas las preguntas, puedes usar el comando:
+
+npm init -y
+
+{
+  "name": "nueva-carpeta",
+  "version": "1.0.0",
+  "description": "prueba node init",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node.js", (desarrollo)
+    "start": "node node.js", (produccion)
+    "buid": "node node.js" (para construir nuestra version de dist de la app) 
+
+  },
+  "author": "",
+  "license": "ISC"
+}
